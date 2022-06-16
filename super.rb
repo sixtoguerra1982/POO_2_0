@@ -11,7 +11,8 @@ end
 
 class Hija < Madre
     def despertar
-        super + ' para ir al colegio!'
+        s = super
+        "#{s} para ir al colegio!"
     end
 end
    
